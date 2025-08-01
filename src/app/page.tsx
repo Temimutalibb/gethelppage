@@ -2,102 +2,362 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+    <div
+      style={{
+        backgroundColor: "#73e6c1ff",
+        height: "auto",
+        width: "100%",
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
+      <div
+        style={{
+          justifyContent: "center",
+          alignItems: "center",
+          padding: "50px",
+          color: "#0C694C",
+          textAlign: "center",
+          marginTop: "50px",
+          marginBottom: "10px",
+        }}
+      >
+        <h1 style={{ fontSize: "50px", fontWeight: "900" }}>Get Help APP</h1>
+        <h2 style={{ fontWeight: "700" }}>
+          Track family and friends, Alert users around incase of emergency
+        </h2>
+      </div>
+      <main
+        style={{
+          justifyContent: "center",
+          display: "flex",
+          alignItems: "center",
+          flexWrap: "wrap",
+          gap: "3px",
+          marginLeft: "50px",
+          marginRight: "50px",
+        }}
+      >
+        <div
+          style={{
+            backgroundColor: "#0C694C",
+            color: "white",
+            borderRadius: "25px",
+            border: "1px solid #ffffffc9",
+            height: "13rem",
+            width: "24rem",
+            textAlign: "center",
+            padding: "20px",
+            paddingTop: "40px",
+            paddingBottom: "40px",
+            boxShadow: "0 1px 1px rgba(0, 0, 0, 0.2)",
+            transition: "transform 0.2s",
+            cursor: "pointer",
+          }}
+        >
+          <div>
+            <div
+              style={{
+                fontSize: "20px",
+                fontWeight: "700",
+                marginBottom: "40px",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                gap: "25px",
+              }}
+            >
+              <div>
+                <Image
+                  src="/free.png"
+                  width={55}
+                  height={55}
+                  alt="free forever"
+                />
+              </div>
+              <div>Free forever</div>
+            </div>
+            <div
+              style={{
+                fontSize: "15px",
+                fontWeight: "400",
+                fontFamily: "sans-serif",
+                color: "#ffffffb0",
+              }}
+            >
+              Option to use the app for free forever, with no hidden costs or
+              fees
+            </div>
+          </div>
+        </div>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+        <div
+          style={{
+            backgroundColor: "#0C694C",
+            color: "white",
+            borderRadius: "25px",
+            border: "1px solid #ffffffc9",
+            height: "13rem",
+            width: "24rem",
+            textAlign: "center",
+            padding: "20px",
+            paddingTop: "40px",
+            paddingBottom: "40px",
+            boxShadow: "0 1px 1px rgba(0, 0, 0, 0.2)",
+            transition: "transform 0.2s",
+            cursor: "pointer",
+          }}
+        >
+          <div>
+            <div
+              style={{
+                fontSize: "20px",
+                fontWeight: "700",
+                marginBottom: "40px",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                gap: "25px",
+              }}
+            >
+              <div>
+                <Image
+                  src="/help.png"
+                  width={55}
+                  height={55}
+                  alt="free forever"
+                />
+              </div>
+              <div> Get help nearby </div>
+            </div>
+            <div
+              style={{
+                fontSize: "15px",
+                fontWeight: "400",
+                fontFamily: "sans-serif",
+                color: "#ffffffb0",
+              }}
+            >
+              Alert nearby users in case of an emergency, so they can help you.
+              Options to share real-time location, one time location ot to
+              include message.
+            </div>
+          </div>
+        </div>
+
+        <div
+          style={{
+            backgroundColor: "#0C694C",
+            color: "white",
+            borderRadius: "25px",
+            border: "1px solid #ffffffc9",
+            height: "13rem",
+            width: "24rem",
+            textAlign: "center",
+            padding: "20px",
+            paddingTop: "40px",
+            paddingBottom: "40px",
+            boxShadow: "0 1px 1px rgba(0, 0, 0, 0.2)",
+            transition: "transform 0.2s",
+            cursor: "pointer",
+          }}
+        >
+          <div>
+            <div
+              style={{
+                fontSize: "20px",
+                fontWeight: "700",
+                marginBottom: "40px",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                gap: "25px",
+              }}
+            >
+              <div>
+                <Image
+                  src="/update.png"
+                  width={55}
+                  height={55}
+                  alt="free forever"
+                />
+              </div>
+              <div>Real-time updates</div>
+            </div>
+            <div
+              style={{
+                fontSize: "15px",
+                fontWeight: "400",
+                fontFamily: "sans-serif",
+                color: "#ffffffb0",
+              }}
+            >
+              Get updates of the devices youre trackining real-time, so you
+              never miss a beat
+            </div>
+          </div>
+        </div>
+
+        <div
+          style={{
+            backgroundColor: "#0C694C",
+            color: "white",
+            borderRadius: "25px",
+            border: "1px solid #ffffffc9",
+            height: "13rem",
+            width: "24rem",
+            textAlign: "center",
+            padding: "20px",
+            paddingTop: "40px",
+            paddingBottom: "40px",
+            boxShadow: "0 1px 1px rgba(0, 0, 0, 0.2)",
+            transition: "transform 0.2s",
+            cursor: "pointer",
+          }}
+        >
+          <div>
+            <div
+              style={{
+                fontSize: "20px",
+                fontWeight: "700",
+                marginBottom: "40px",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                gap: "25px",
+              }}
+            >
+              <div>
+                <Image
+                  src="/secure.png"
+                  width={55}
+                  height={55}
+                  alt="free forever"
+                />
+              </div>
+              <div> Protected data</div>
+            </div>
+            <div
+              style={{
+                fontSize: "15px",
+                fontWeight: "400",
+                fontFamily: "sans-serif",
+                color: "#ffffffb0",
+              }}
+            >
+              Your data is encrypted and protected, ensuring your privacy and
+              security
+            </div>
+          </div>
+        </div>
+
+        <div
+          style={{
+            backgroundColor: "#0C694C",
+            color: "white",
+            borderRadius: "25px",
+            border: "1px solid #ffffffc9",
+            height: "13rem",
+            width: "24rem",
+            textAlign: "center",
+            padding: "20px",
+            paddingTop: "40px",
+            paddingBottom: "40px",
+            boxShadow: "0 1px 1px rgba(0, 0, 0, 0.2)",
+            transition: "transform 0.2s",
+            cursor: "pointer",
+          }}
+        >
+          <div>
+            <div
+              style={{
+                fontSize: "20px",
+                fontWeight: "700",
+                marginBottom: "40px",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                gap: "25px",
+              }}
+            >
+              <div>
+                <Image
+                  src="/fastline.png"
+                  width={55}
+                  height={55}
+                  alt="free forever"
+                />
+              </div>
+              <div>Fast line</div>
+            </div>
+            <div
+              style={{
+                fontSize: "15px",
+                fontWeight: "400",
+                fontFamily: "sans-serif",
+                color: "#ffffffb0",
+              }}
+            >
+              Our fast line help you call or get the nearby location of
+              emergency services, so you can get help quickly
+            </div>
+          </div>
+        </div>
+
+        <div
+          style={{
+            backgroundColor: "#0C694C",
+            color: "white",
+            borderRadius: "25px",
+            border: "1px solid #ffffffc9",
+            height: "13rem",
+            width: "24rem",
+            textAlign: "center",
+            padding: "20px",
+            paddingTop: "40px",
+            paddingBottom: "40px",
+            boxShadow: "0 1px 1px rgba(0, 0, 0, 0.2)",
+            transition: "transform 0.2s",
+            cursor: "pointer",
+          }}
+        >
+          <div></div>
+          <div>
+            <div
+              style={{
+                fontSize: "20px",
+                fontWeight: "700",
+                marginBottom: "40px",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                gap: "25px",
+              }}
+            >
+              <div>
+                <Image
+                  src="/alert.png"
+                  width={55}
+                  height={55}
+                  alt="free forever"
+                />
+              </div>
+              <div>Easy tap to Alert Family</div>
+            </div>
+            <div
+              style={{
+                fontSize: "15px",
+                fontWeight: "400",
+                fontFamily: "sans-serif",
+                color: "#ffffffb0",
+              }}
+            >
+              Our pals option let you alert your family with one click, so they
+              can help you
+            </div>
+          </div>
         </div>
       </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
     </div>
   );
 }
