@@ -38,35 +38,9 @@ export default function Home() {
           marginRight: "50px",
         }}
       >
-        <div
-          style={{
-            backgroundColor: "#0C694C",
-            color: "white",
-            borderRadius: "25px",
-            border: "1px solid #ffffffc9",
-            height: "13rem",
-            width: "24rem",
-            textAlign: "center",
-            padding: "20px",
-            paddingTop: "40px",
-            paddingBottom: "40px",
-            boxShadow: "0 1px 1px rgba(0, 0, 0, 0.2)",
-            transition: "transform 0.2s",
-            cursor: "pointer",
-          }}
-        >
+        <div className="bg-[#0C694C] text-white rounded-[25px] border border-white/80 h-[13rem] w-[24rem] text-center px-5 py-10 shadow-sm transition-transform duration-200 cursor-pointer">
           <div>
-            <div
-              style={{
-                fontSize: "20px",
-                fontWeight: "700",
-                marginBottom: "40px",
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                gap: "25px",
-              }}
-            >
+            <div className="flex  flex-col sm:flex-row justify-center items-center gap-[18px] mb-2 sm:mb-10">
               <div>
                 <Image
                   src="/free.png"
@@ -75,51 +49,18 @@ export default function Home() {
                   alt="free forever"
                 />
               </div>
-              <div>Free forever</div>
+              <div className="text-[20px] font-bold">Free forever</div>
             </div>
-            <div
-              style={{
-                fontSize: "15px",
-                fontWeight: "400",
-                fontFamily: "sans-serif",
-                color: "#ffffffb0",
-              }}
-            >
+            <div className="text-[15px] font-normal font-sans text-white/70">
               Option to use the app for free forever, with no hidden costs or
               fees
             </div>
           </div>
         </div>
 
-        <div
-          style={{
-            backgroundColor: "#0C694C",
-            color: "white",
-            borderRadius: "25px",
-            border: "1px solid #ffffffc9",
-            height: "13rem",
-            width: "24rem",
-            textAlign: "center",
-            padding: "20px",
-            paddingTop: "40px",
-            paddingBottom: "40px",
-            boxShadow: "0 1px 1px rgba(0, 0, 0, 0.2)",
-            transition: "transform 0.2s",
-            cursor: "pointer",
-          }}
-        >
+        <div className="bg-[#0C694C] text-white rounded-[25px] border border-white/80 h-[13rem] w-[24rem] text-center px-5 py-10 shadow-sm transition-transform duration-200 cursor-pointer">
           <div>
-            <div
-              style={{
-                fontSize: "20px",
-                fontWeight: "700",
-                marginBottom: "40px",
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                gap: "25px",
-              }}
-            >
+            <div className="flex  flex-col sm:flex-row justify-center items-center gap-[18px] mb-2 sm:mb-10">
               <div>
                 <Image
                   src="/help.png"
@@ -128,52 +69,17 @@ export default function Home() {
                   alt="free forever"
                 />
               </div>
-              <div> Get help nearby </div>
+              <div className="text-[20px] font-bold"> Get help nearby </div>
             </div>
-            <div
-              style={{
-                fontSize: "15px",
-                fontWeight: "400",
-                fontFamily: "sans-serif",
-                color: "#ffffffb0",
-              }}
-            >
+            <div className="text-[15px] font-normal font-sans text-white/70">
               Alert nearby users in case of an emergency, so they can help you.
-              Options to share real-time location, one time location ot to
-              include message.
             </div>
           </div>
         </div>
 
-        <div
-          style={{
-            backgroundColor: "#0C694C",
-            color: "white",
-            borderRadius: "25px",
-            border: "1px solid #ffffffc9",
-            height: "13rem",
-            width: "24rem",
-            textAlign: "center",
-            padding: "20px",
-            paddingTop: "40px",
-            paddingBottom: "40px",
-            boxShadow: "0 1px 1px rgba(0, 0, 0, 0.2)",
-            transition: "transform 0.2s",
-            cursor: "pointer",
-          }}
-        >
+        <div className="bg-[#0C694C] text-white rounded-[25px] border border-white/80 h-[13rem] w-[24rem] text-center px-5 py-10 shadow-sm transition-transform duration-200 cursor-pointer">
           <div>
-            <div
-              style={{
-                fontSize: "20px",
-                fontWeight: "700",
-                marginBottom: "40px",
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                gap: "25px",
-              }}
-            >
+            <div className="flex  flex-col sm:flex-row justify-center items-center gap-[18px] mb-2 sm:mb-10">
               <div>
                 <Image
                   src="/update.png"
@@ -182,51 +88,18 @@ export default function Home() {
                   alt="free forever"
                 />
               </div>
-              <div>Real-time updates</div>
+              <div className="text-[20px] font-bold">Real-time updates</div>
             </div>
-            <div
-              style={{
-                fontSize: "15px",
-                fontWeight: "400",
-                fontFamily: "sans-serif",
-                color: "#ffffffb0",
-              }}
-            >
+            <div className="text-[15px] font-normal font-sans text-white/70">
               Get updates of the devices youre trackining real-time, so you
               never miss a beat
             </div>
           </div>
         </div>
 
-        <div
-          style={{
-            backgroundColor: "#0C694C",
-            color: "white",
-            borderRadius: "25px",
-            border: "1px solid #ffffffc9",
-            height: "13rem",
-            width: "24rem",
-            textAlign: "center",
-            padding: "20px",
-            paddingTop: "40px",
-            paddingBottom: "40px",
-            boxShadow: "0 1px 1px rgba(0, 0, 0, 0.2)",
-            transition: "transform 0.2s",
-            cursor: "pointer",
-          }}
-        >
+        <div className="bg-[#0C694C] text-white rounded-[25px] border border-white/80 h-[13rem] w-[24rem] text-center px-5 py-10 shadow-sm transition-transform duration-200 cursor-pointer">
           <div>
-            <div
-              style={{
-                fontSize: "20px",
-                fontWeight: "700",
-                marginBottom: "40px",
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                gap: "25px",
-              }}
-            >
+            <div className="flex  flex-col sm:flex-row justify-center items-center gap-[18px] mb-2 sm:mb-10">
               <div>
                 <Image
                   src="/secure.png"
@@ -235,51 +108,18 @@ export default function Home() {
                   alt="free forever"
                 />
               </div>
-              <div> Protected data</div>
+              <div className="text-[20px] font-bold"> Protected data</div>
             </div>
-            <div
-              style={{
-                fontSize: "15px",
-                fontWeight: "400",
-                fontFamily: "sans-serif",
-                color: "#ffffffb0",
-              }}
-            >
+            <div className="text-[15px] font-normal font-sans text-white/70">
               Your data is encrypted and protected, ensuring your privacy and
               security
             </div>
           </div>
         </div>
 
-        <div
-          style={{
-            backgroundColor: "#0C694C",
-            color: "white",
-            borderRadius: "25px",
-            border: "1px solid #ffffffc9",
-            height: "13rem",
-            width: "24rem",
-            textAlign: "center",
-            padding: "20px",
-            paddingTop: "40px",
-            paddingBottom: "40px",
-            boxShadow: "0 1px 1px rgba(0, 0, 0, 0.2)",
-            transition: "transform 0.2s",
-            cursor: "pointer",
-          }}
-        >
+        <div className="bg-[#0C694C] text-white rounded-[25px] border border-white/80 h-[13rem] w-[24rem] text-center px-5 py-10 shadow-sm transition-transform duration-200 cursor-pointer">
           <div>
-            <div
-              style={{
-                fontSize: "20px",
-                fontWeight: "700",
-                marginBottom: "40px",
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                gap: "25px",
-              }}
-            >
+            <div className="flex  flex-col sm:flex-row justify-center items-center gap-[18px] mb-2 sm:mb-10">
               <div>
                 <Image
                   src="/fastline.png"
@@ -288,52 +128,18 @@ export default function Home() {
                   alt="free forever"
                 />
               </div>
-              <div>Fast line</div>
+              <div className="text-[20px] font-bold">Fast line</div>
             </div>
-            <div
-              style={{
-                fontSize: "15px",
-                fontWeight: "400",
-                fontFamily: "sans-serif",
-                color: "#ffffffb0",
-              }}
-            >
+            <div className="text-[15px] font-normal font-sans text-white/70">
               Our fast line help you call or get the nearby location of
-              emergency services, so you can get help quickly
+              emergency services.
             </div>
           </div>
         </div>
 
-        <div
-          style={{
-            backgroundColor: "#0C694C",
-            color: "white",
-            borderRadius: "25px",
-            border: "1px solid #ffffffc9",
-            height: "13rem",
-            width: "24rem",
-            textAlign: "center",
-            padding: "20px",
-            paddingTop: "40px",
-            paddingBottom: "40px",
-            boxShadow: "0 1px 1px rgba(0, 0, 0, 0.2)",
-            transition: "transform 0.2s",
-            cursor: "pointer",
-          }}
-        >
-          <div></div>
+        <div className="bg-[#0C694C] text-white rounded-[25px] border border-white/80 h-[13rem] w-[24rem] text-center px-5 py-10 shadow-sm transition-transform duration-200 cursor-pointer">
           <div>
-            <div
-              style={{
-                fontSize: "20px",
-                fontWeight: "700",
-                marginBottom: "40px",
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                gap: "25px",
-              }}
-            >
+            <div className="flex  flex-col sm:flex-row justify-center items-center gap-[18px] mb-2 sm:mb-10">
               <div>
                 <Image
                   src="/alert.png"
@@ -342,16 +148,11 @@ export default function Home() {
                   alt="free forever"
                 />
               </div>
-              <div>Easy tap to Alert Family</div>
+              <div className="text-[20px] font-bold">
+                Easy tap to Alert Family
+              </div>
             </div>
-            <div
-              style={{
-                fontSize: "15px",
-                fontWeight: "400",
-                fontFamily: "sans-serif",
-                color: "#ffffffb0",
-              }}
-            >
+            <div className="text-[15px] font-normal font-sans text-white/70">
               Our pals option let you alert your family with one click, so they
               can help you
             </div>
