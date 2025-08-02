@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function Terms() {
   return (
     <div className="max-w-3xl mx-auto p-6">
@@ -48,9 +49,9 @@ export default function Terms() {
         <h2 className="text-xl font-semibold mb-2">5. Privacy</h2>
         <p>
           We respect your privacy. Please review our{" "}
-          <a href="/privacy" className="text-blue-600 underline">
+          <Link href="/privacy" className="text-blue-600 underline">
             Privacy Policy
-          </a>{" "}
+          </Link>{" "}
           to learn how we collect and use data.
         </p>
       </section>
@@ -83,7 +84,7 @@ export default function Terms() {
           If you have questions or concerns about these Terms, please contact us
           at: <br />
           <a
-            href="mailto:support@gethelpapp.com"
+            href="mailto:email@mutalibb.xyz"
             className="text-blue-600 underline"
           >
             support@gethelpapp.com
