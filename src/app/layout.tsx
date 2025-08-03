@@ -57,7 +57,10 @@ export default function RootLayout({
 
         {children}
         <footer className="w-full h-[200px] bg-[#14815fff] text-white mt-[50px] px-5 py-5 flex flex-wrap items-center gap-5 md:justify-between justify-start text-left">
-          <div className="text-[27px] font-black w-[20rem]">getHelp</div>
+          <div className="flex items-center flex-row gap-[9px] justify-center">
+            <Image src="/gethelplogo.png" width={33} height={33} alt="x" />
+            <div className="text-[27px] font-black w-[20rem]">getHelp</div>
+          </div>
 
           <div className="flex flex-col gap-[18px]">
             <div className="flex items-center gap-[19px] md:justify-end justify-start">
@@ -77,7 +80,7 @@ export default function RootLayout({
               </div>
             </div>
             <div>
-              2023 © All rights reserved |{" "}
+              2023 © All rights reserved |
               <a href="https://x.com/mutalibb">by Mutalibb</a>
             </div>
           </div>

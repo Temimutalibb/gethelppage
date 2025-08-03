@@ -38,9 +38,9 @@ export default function Home() {
           marginRight: "50px",
         }}
       >
-        <div className="bg-[#0C694C] text-white rounded-[25px] border border-white/80 h-[13rem] w-[24rem] text-center px-5 py-10 shadow-sm transition-transform duration-200 cursor-pointer">
+        <div className="bg-[#0C694C] text-white rounded-[25px] border border-white/80 h-[14rem]  sm:h-[13rem] w-[24rem] text-center px-5 py-10 shadow-sm transition-transform duration-200 cursor-pointer ">
           <div>
-            <div className="flex  flex-col sm:flex-row justify-center items-center gap-[18px] mb-2 sm:mb-10">
+            <div className="flex  flex-col   sm:flex-row justify-center items-center gap-[18px] mb-0 sm:mb-10  ">
               <div>
                 <Image
                   src="/free.png"
@@ -58,9 +58,9 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="bg-[#0C694C] text-white rounded-[25px] border border-white/80 h-[13rem] w-[24rem] text-center px-5 py-10 shadow-sm transition-transform duration-200 cursor-pointer">
+        <div className="bg-[#0C694C] text-white rounded-[25px] border border-white/80 h-[14rem]  sm:h-[13rem] w-[24rem] text-center px-5 py-10 shadow-sm transition-transform duration-200 cursor-pointer">
           <div>
-            <div className="flex  flex-col sm:flex-row justify-center items-center gap-[18px] mb-2 sm:mb-10">
+            <div className="flex  flex-col sm:flex-row justify-center items-center gap-[18px] mb-0 sm:mb-10">
               <div>
                 <Image
                   src="/help.png"
@@ -77,9 +77,9 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="bg-[#0C694C] text-white rounded-[25px] border border-white/80 h-[13rem] w-[24rem] text-center px-5 py-10 shadow-sm transition-transform duration-200 cursor-pointer">
+        <div className="bg-[#0C694C] text-white rounded-[25px] border border-white/80 h-[14rem]  sm:h-[13rem] w-[24rem] text-center px-5 py-10 shadow-sm transition-transform duration-200 cursor-pointer">
           <div>
-            <div className="flex  flex-col sm:flex-row justify-center items-center gap-[18px] mb-2 sm:mb-10">
+            <div className="flex  flex-col sm:flex-row justify-center items-center gap-[18px] mb-0 sm:mb-10">
               <div>
                 <Image
                   src="/update.png"
@@ -97,9 +97,9 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="bg-[#0C694C] text-white rounded-[25px] border border-white/80 h-[13rem] w-[24rem] text-center px-5 py-10 shadow-sm transition-transform duration-200 cursor-pointer">
+        <div className="bg-[#0C694C] text-white rounded-[25px] border border-white/80 h-[14rem]  sm:h-[13rem] w-[24rem] text-center px-5 py-10 shadow-sm transition-transform duration-200 cursor-pointer">
           <div>
-            <div className="flex  flex-col sm:flex-row justify-center items-center gap-[18px] mb-2 sm:mb-10">
+            <div className="flex  flex-col sm:flex-row justify-center items-center gap-[18px] mb-0 sm:mb-10">
               <div>
                 <Image
                   src="/secure.png"
@@ -117,9 +117,9 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="bg-[#0C694C] text-white rounded-[25px] border border-white/80 h-[13rem] w-[24rem] text-center px-5 py-10 shadow-sm transition-transform duration-200 cursor-pointer">
+        <div className="bg-[#0C694C] text-white rounded-[25px] border border-white/80 h-[14rem]  sm:h-[13rem] w-[24rem] text-center px-5 py-10 shadow-sm transition-transform duration-200 cursor-pointer">
           <div>
-            <div className="flex  flex-col sm:flex-row justify-center items-center gap-[18px] mb-2 sm:mb-10">
+            <div className="flex  flex-col sm:flex-row justify-center items-center gap-[18px] mb-0 sm:mb-10">
               <div>
                 <Image
                   src="/fastline.png"
@@ -137,9 +137,9 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="bg-[#0C694C] text-white rounded-[25px] border border-white/80 h-[13rem] w-[24rem] text-center px-5 py-10 shadow-sm transition-transform duration-200 cursor-pointer">
+        <div className="bg-[#0C694C] text-white rounded-[25px] border border-white/80 h-[14rem]  sm:h-[13rem] w-[24rem] text-center px-5 py-10 shadow-sm transition-transform duration-200 cursor-pointer">
           <div>
-            <div className="flex  flex-col sm:flex-row justify-center items-center gap-[18px] mb-2 sm:mb-10">
+            <div className="flex  flex-col sm:flex-row justify-center items-center gap-[18px] mb-0 sm:mb-10">
               <div>
                 <Image
                   src="/alert.png"
