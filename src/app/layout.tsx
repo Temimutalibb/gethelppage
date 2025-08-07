@@ -64,9 +64,9 @@ export default function RootLayout({
 
           <div className="flex flex-col gap-[18px]">
             <div className="flex items-center gap-[19px] md:justify-end justify-start">
-              <div>
+              <a href="https://x.com/mutalibb">
                 <Image src="/xwhite.png" width={30} height={30} alt="x" />
-              </div>
+              </a>
               <div>
                 <Image src="/email.png" width={30} height={30} alt="email" />
               </div>
@@ -81,7 +81,7 @@ export default function RootLayout({
             </div>
             <div>
               2023 © All rights reserved |
-              <a href="https://x.com/mutalibb">by Mutalibb</a>
+              <a href="https://x.com/mutalibb"> Made by Mutalibb</a>
             </div>
           </div>
         </footer>

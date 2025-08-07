@@ -11,20 +11,12 @@ export default function Home() {
         alignItems: "center",
       }}
     >
-      <div
-        style={{
-          justifyContent: "center",
-          alignItems: "center",
-          padding: "50px",
-          color: "#0C694C",
-          textAlign: "center",
-          marginTop: "50px",
-          marginBottom: "10px",
-        }}
-      >
-        <h1 style={{ fontSize: "50px", fontWeight: "900" }}>Get Help APP</h1>
-        <h2 style={{ fontWeight: "700" }}>
-          Track family and friends, Alert users around incase of emergency
+      <div className="flex flex-col items-center justify-center text-center text-[#0C694C] px-4 py-12 mt-12 mb-2">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-2">
+          Get Help APP
+        </h1>
+        <h2 className="text-base sm:text-lg md:text-xl font-bold">
+          Track family and friends, Alert users around in case of emergency
         </h2>
       </div>
       <main
